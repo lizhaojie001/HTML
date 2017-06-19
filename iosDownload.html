@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @media screen and (max-width: 768px){
+            #btn{
+                display: block;
+                width: 300px;
+                height:100px;
+                margin:0 auto;
+                margin-top:300px;
+                background-color: limegreen;
+                box-shadow: none;
+                border:none;
+                border-radius: 5px;
+            }
+            #download{
+                text-decoration: none;
+                color: #000;
+                font-size: 35px;
+            }
+        }
+
+        @media screen and (max-width: 992px) and (min-width: 768px){
+            #btn{
+                display: block;
+                width: 300px;
+                height:100px;
+                margin:0 auto;
+                margin-top:300px;
+                background-color: limegreen;
+                box-shadow: none;
+                border:none;
+                border-radius: 5px;
+            }
+            #download{
+                text-decoration: none;
+                color: #000;
+                font-size: 35px;
+            }
+        }
+
+        @media screen and (min-width: 992px){
+            #btn{
+                display: block;
+                width: 200px;
+                height:50px;
+                margin:0 auto;
+                margin-top:300px;
+                background-color: limegreen;
+                box-shadow: none;
+                border:none;
+                border-radius: 5px;
+            }
+            #download{
+                text-decoration: none;
+                color: #000;
+                font-size: 35px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<button id="btn">
+    <a id="download" href="itms-services://?action=download-manifest&url=https://test-nginx-file.chinacloudapp.cn:443/ThundersoftMDMUI/resources/apkStore/100001/iOS/com.tencent.info_53487.plist">
+        点击下载
+    </a>
+</button>
+</body>
+</html>
